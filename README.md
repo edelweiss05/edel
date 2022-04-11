@@ -1,7 +1,10 @@
 # edel
 sunshine
-def get_vowels(String):
+def get_consonants(String):
     return [each for each in String if each in "aeiou"]
-get_vowels("animal") # [a, i, a]
-get_vowels("sky") # []
-get_vowels("football") # [o, o, a]
+get_consonants("animal") # [a, i, a]
+get_consonants("sky") # []
+get_consonants("football") # [o, o, a]
+
+
+
